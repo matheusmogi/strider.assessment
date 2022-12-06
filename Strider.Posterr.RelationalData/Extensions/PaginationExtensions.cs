@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Strider.Posterr.Common;
+using Strider.Posterr.Domain.Models;
 using Strider.Posterr.Domain.Repositories;
 
 namespace Strider.Posterr.RelationalData.Extensions;

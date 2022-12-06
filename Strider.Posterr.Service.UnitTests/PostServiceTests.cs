@@ -1,7 +1,7 @@
 using Moq;
 using NUnit.Framework;
+using Strider.Posterr.Common;
 using Strider.Posterr.Domain.Dtos;
-using Strider.Posterr.Domain.Factory;
 using Strider.Posterr.Domain.Models;
 using Strider.Posterr.Domain.Repositories;
 using Strider.Posterr.Domain.Services;

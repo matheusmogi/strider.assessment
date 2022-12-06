@@ -1,4 +1,4 @@
-using Strider.Posterr.Common;
+using Strider.Posterr.Domain.Models;
 
 namespace Strider.Posterr.Domain.Repositories;
 

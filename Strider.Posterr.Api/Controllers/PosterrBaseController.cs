@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Strider.Posterr.Api.ApiModel;
+using Strider.Posterr.Common;
 using Strider.Posterr.Domain.Dtos;
-using Strider.Posterr.Domain.Factory;
 using Strider.Posterr.Domain.Services;
 
 namespace Strider.Posterr.Api.Controllers;

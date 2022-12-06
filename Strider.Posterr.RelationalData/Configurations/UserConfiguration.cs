@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Strider.Posterr.Domain.Factory;
+using Strider.Posterr.Common;
 using Strider.Posterr.Domain.Models;
 
 namespace Strider.Posterr.RelationalData.Configurations;

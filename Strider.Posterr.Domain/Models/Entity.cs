@@ -1,11 +1,7 @@
-using Microsoft.Azure.Cosmos.Core;
-using Newtonsoft.Json;
-
-namespace Strider.Posterr.Common;
+namespace Strider.Posterr.Domain.Models;
 
 public abstract class Entity :  IEntity
 {
-    [JsonProperty(PropertyName = "od")]
     public Guid Id { get; set; }
     public DateTime CreatedOn { get; set; }
 

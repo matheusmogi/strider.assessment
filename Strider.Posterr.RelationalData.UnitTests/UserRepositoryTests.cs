@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using NUnit.Framework;
-using Strider.Posterr.Domain.Factory;
+using Strider.Posterr.Common;
 using Strider.Posterr.RelationalData.Repositories;
 
 namespace Strider.Posterr.RelationalData.UnitTests;

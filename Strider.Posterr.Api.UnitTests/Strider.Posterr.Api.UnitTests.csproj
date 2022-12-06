@@ -16,6 +16,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Strider.Posterr.Api\Strider.Posterr.Api.csproj" />
+      <ProjectReference Include="..\Strider.Posterr.Common\Strider.Posterr.Common.csproj" />
       <ProjectReference Include="..\Strider.Posterr.Domain\Strider.Posterr.Domain.csproj" />
     </ItemGroup>
 

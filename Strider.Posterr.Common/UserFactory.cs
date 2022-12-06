@@ -1,6 +1,6 @@
 ﻿using Strider.Posterr.Domain.Models;
 
-namespace Strider.Posterr.Domain.Factory;
+namespace Strider.Posterr.Common;
 
 /// <summary>
 /// Class used to generate fake users

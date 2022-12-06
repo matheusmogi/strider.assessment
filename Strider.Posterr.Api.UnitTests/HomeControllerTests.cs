@@ -8,8 +8,8 @@ using Moq;
 using NUnit.Framework;
 using Strider.Posterr.Api.ApiModel;
 using Strider.Posterr.Api.Controllers;
+using Strider.Posterr.Common;
 using Strider.Posterr.Domain.Dtos;
-using Strider.Posterr.Domain.Factory;
 using Strider.Posterr.Domain.Models;
 using Strider.Posterr.Domain.Services;
 

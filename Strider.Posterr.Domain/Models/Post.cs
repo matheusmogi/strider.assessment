@@ -1,4 +1,3 @@
-using Strider.Posterr.Common;
 
 namespace Strider.Posterr.Domain.Models;
 
