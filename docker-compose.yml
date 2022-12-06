@@ -1,0 +1,17 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  api:
+    build: .
+    image: posterr.api
+    container_name: api_application
+    ports:
+      - "44392:443"
+      - "54023:80" 
+  sql:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: sqlserver
+    ports: # not actually needed, because the two services are on the same network
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=y
+      - SA_PASSWORD=123Ch@nge

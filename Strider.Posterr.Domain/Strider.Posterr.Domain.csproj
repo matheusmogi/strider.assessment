@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup> 
+
+    <ItemGroup>
+      <ProjectReference Include="..\Strider.Posterr.Common\Strider.Posterr.Common.csproj" />
+    </ItemGroup>
+
+</Project>
