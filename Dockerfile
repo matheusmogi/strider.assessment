@@ -8,6 +8,9 @@ WORKDIR /src
 COPY ["Strider.Posterr.Api/Strider.Posterr.Api.csproj", "Strider.Posterr.Api/"]
 RUN dotnet restore "Strider.Posterr.Api/Strider.Posterr.Api.csproj"
 COPY . .
+
+RUN dotnet test --no-restore
+
 WORKDIR "/src/Strider.Posterr.Api"
 RUN dotnet build "Strider.Posterr.Api.csproj" -c Release -o /app/build
 
